@@ -34,16 +34,10 @@ public class FunnyAlgorithmsTest {
         }
     }
 
-    
-
     @Test
     public void stringToIntConverterTest(String number) {
         assertEquals(Arrays.asList(-3,500,-10,32767),funnyAlgorithms.stringToIntConverter(number));
         assertNotEquals(Arrays.asList("2 3","32768","A3","2.3"),funnyAlgorithms.stringToIntConverter(number));
     }
-
-    @Test
-    public void stringToIntConverterTest(){
-
-    }
+    
 }
