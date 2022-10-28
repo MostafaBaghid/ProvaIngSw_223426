@@ -7,8 +7,11 @@
     <list default="true" id="e6112328-4cab-491a-8a9d-260dbc93299e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunnyAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FunnyAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FunnyAlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FunnyAlgorithmsTest.java" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Mostafa/Desktop/INGSW/prove intermedie/provaLab/provaLabGit&quot;
   }
 }</component>
+<<<<<<< HEAD
+  <component name="RunManager">
+=======
   <component name="RunManager" selected="JUnit.FunnyAlgorithmsTest">
+>>>>>>> master
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="ProvaIngSw_223426" />
@@ -100,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666963037502</updated>
-      <workItem from="1666963039881" duration="4188000" />
+      <workItem from="1666963039881" duration="4525000" />
     </task>
     <servers />
   </component>
