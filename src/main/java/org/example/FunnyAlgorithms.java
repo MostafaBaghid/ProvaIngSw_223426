@@ -46,7 +46,6 @@ public class FunnyAlgorithms {
         if (order != 0 && order != 1) {
             throw new IllegalArgumentException("L'ordine può essere 0 o 1.");
         }
-
         for (int i = 0; i < array.length - 2; i++) {
             int min = i;
             for (int j = i + 1; j < array.length; j++) {
