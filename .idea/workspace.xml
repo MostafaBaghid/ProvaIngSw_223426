@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e6112328-4cab-491a-8a9d-260dbc93299e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunnyAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FunnyAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FunnyAlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FunnyAlgorithmsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +119,7 @@
     <SUITE FILE_PATH="coverage/ProvaIngSw_223426$FunnyAlgorithmsTest_binarySearchTest1.ic" NAME="FunnyAlgorithmsTest.binarySearchTest1 Coverage Results" MODIFIED="1666969513252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ProvaIngSw_223426$FunnyAlgorithmsTest.ic" NAME="FunnyAlgorithmsTest Coverage Results" MODIFIED="1666969548146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ProvaIngSw_223426$FunnyAlgorithmsTest.ic" NAME="FunnyAlgorithmsTest Coverage Results" MODIFIED="1666970381989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.*</FILTER>
     </SUITE>
   </component>
