@@ -1,6 +1,7 @@
 package org.example;
 
 import org.joda.time.LocalTime;
+import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -15,7 +16,14 @@ public class FunnyAlgorithmsTest {
 
     @BeforeClass
     public static void prepareAll(){
+        LocalTime localTime = new LocalTime();
+        System.out.println("Local time all' inzio della classe:"+localTime);
         funnyAlgorithms = new FunnyAlgorithms();
+    }
+    @AfterClass
+    public static void afterAll() {
+        LocalTime localTime = new LocalTime();
+        System.out.println("Local time alla fine della classe:" + localTime);
     }
 
     @Before
@@ -23,21 +31,23 @@ public class FunnyAlgorithmsTest {
         LocalTime starTime = LocalTime.now();
         System.out.println("data e ora all'inizio di ogni classe:" + starTime);
     }
+    
 
-    //dovrebbe ritornare true se lo ha trovato in una qualsiasi posizione
     @Test
     public void binarySearchTest1() {
         int[] sorted = new int[] { 0, 2, 4, 6, 8, 10, 12, 14, 16 };
 
         for (int i = 0; i < sorted.length; i++) {
-            assertEquals(true, funnyAlgorithms.binarySearch(sorted,sorted[i]));
+            assertEquals(-1, funnyAlgorithms.binarySearch(sorted,sorted[i]));
         }
     }
 
     @Test
-    public void stringToIntConverterTest(String number) {
-        assertEquals(Arrays.asList(-3,500,-10,32767),funnyAlgorithms.stringToIntConverter(number));
-        assertNotEquals(Arrays.asList("2 3","32768","A3","2.3"),funnyAlgorithms.stringToIntConverter(number));
+    public void stringToIntConverterTest() {
+        String number = "-5";
+        assertEquals(-5,funnyAlgorithms.stringToIntConverter(number));
+
+        assertNotEquals(2,funnyAlgorithms.stringToIntConverter(number));
     }
     
 }

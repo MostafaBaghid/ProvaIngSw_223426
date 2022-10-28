@@ -1,6 +1,11 @@
 .idea/
 target/
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> master
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/

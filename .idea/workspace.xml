@@ -7,6 +7,11 @@
     <list default="true" id="e6112328-4cab-491a-8a9d-260dbc93299e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FunnyAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FunnyAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FunnyAlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FunnyAlgorithmsTest.java" afterDir="false" />
+>>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Mostafa/Desktop/INGSW/prove intermedie/provaLab/provaLabGit&quot;
   }
 }</component>
+<<<<<<< HEAD
   <component name="RunManager">
+=======
+  <component name="RunManager" selected="JUnit.FunnyAlgorithmsTest">
+>>>>>>> master
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="ProvaIngSw_223426" />
@@ -51,8 +60,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunnyAlgorithmsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProvaIngSw_223426" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FunnyAlgorithmsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunnyAlgorithmsTest.binarySearchTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProvaIngSw_223426" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.FunnyAlgorithmsTest" />
+      <option name="METHOD_NAME" value="binarySearchTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunnyAlgorithmsTest" />
+        <item itemvalue="JUnit.FunnyAlgorithmsTest.binarySearchTest1" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -82,5 +124,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProvaIngSw_223426$FunnyAlgorithmsTest_binarySearchTest1.ic" NAME="FunnyAlgorithmsTest.binarySearchTest1 Coverage Results" MODIFIED="1666969513252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ProvaIngSw_223426$FunnyAlgorithmsTest.ic" NAME="FunnyAlgorithmsTest Coverage Results" MODIFIED="1666969548146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
